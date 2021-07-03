@@ -10,7 +10,7 @@
 #include <PubSubClient.h>           //MQTT library
 char ssid[] = "********";        // SSID:router name      
 char pass[] = "********";             // pass:router password
-String Linetoken = "atvAG0ZJjjWLdGez6Uk6cenAstRfiRm6Iamc13jdkr1";
+String Linetoken = "****************************************";
 
 int status  = WL_IDLE_STATUS;         // keep connecting
 char mqttServer[]     = "iiot.ideaschain.com.tw";          // take ideaschain as server
