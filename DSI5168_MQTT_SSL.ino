@@ -8,15 +8,15 @@
 
 #include <WiFi.h>                   //WIFI library
 #include <PubSubClient.h>           //MQTT library
-char ssid[] = "lysiPhone";        // SSID:router name      
-char pass[] = "666666666";             // pass:router password
+char ssid[] = "********";        // SSID:router name      
+char pass[] = "********";             // pass:router password
 String Linetoken = "atvAG0ZJjjWLdGez6Uk6cenAstRfiRm6Iamc13jdkr1";
 
 int status  = WL_IDLE_STATUS;         // keep connecting
 char mqttServer[]     = "iiot.ideaschain.com.tw";          // take ideaschain as server
 int mqttPort          = 1883;
-char clientId[]       = "830346d0-896e-11eb-8e26-2532a0ef1bf0";  // MQTT client ID. Create an unique ID.
-char username[]       = "xfJsQcKkZWGG8mgd05YE";      // device access token(change your own access token of IDEASChain)
+char clientId[]       = "********";  // MQTT client ID. Create an unique ID.
+char username[]       = "********";      // device access token(change your own access token of IDEASChain)
 char password[]       = "";                                // don't need to set up 
 char subscribeTopic[] = "v1/devices/me/telemetry";         //fixed topic, do not modify
 char publishTopic[]   = "v1/devices/me/telemetry";         //as the same as subscribeTopic
